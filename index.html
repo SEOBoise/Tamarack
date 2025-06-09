@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore Tamarack Resort, a premier Idaho ski resort offering scenic slopes, powder-perfect trails, luxury lodges, and unforgettable winter adventures." />
+  <title>Tamarack Resort - Idaho Ski Resort</title>
+  <style>
+    body {
+      background-color: #f0f8ff;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      padding: 20px;
+      max-width: 960px;
+      margin: auto;
+    }
+    header, .identity, .resources, footer {
+      margin-bottom: 40px;
+    }
+    header {
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+      height: auto;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+    }
+    .contact {
+      text-align: center;
+    }
+    .legal-links a {
+      margin: 0 10px;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 10px;
+      }
+      iframe {
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="/mnt/data/13a47e4e-a384-4b94-80f2-69cf93679817.png" alt="Tamarack Resort Logo" />
+      <h1>Tamarack Resort</h1>
+    </header>
+
+    <section>
+      <p>
+        Nestled in the breathtaking mountains of Idaho, Tamarack Resort offers the ultimate alpine escape for families, thrill-seekers, and nature lovers alike. As a premier Idaho ski resort, Tamarack combines powder-perfect slopes, modern chairlifts, and miles of scenic trails with world-class amenities to create a winter vacation destination like no other.
+      </p>
+      <p>
+        From cozy cabins and rustic chalets to elegant lodges with panoramic views, visitors can unwind après-ski with gourmet food, local culture, and a variety of family-friendly activities. Whether you're carving fresh lines on the terrain, snowboarding down exhilarating runs, or enjoying lessons and rentals with your group, Tamarack is the perfect way to experience the adventure and beauty of Idaho's winter wonderland.
+      </p>
+    </section>
+
+    <section class="identity">
+      <h2>Identity</h2>
+      <ul>
+        <li><a href="https://www.instagram.com/tamarackresort" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/user/SkiTamarackResort/feed" target="_blank">YouTube</a></li>
+        <li><a href="https://twitter.com/skitamarack" target="_blank">Twitter</a></li>
+        <li><a href="https://www.facebook.com/tamarackresortidaho" target="_blank">Facebook</a></li>
+        <li><a href="mailto:skitam@tamarackidaho.com">Email Us</a></li>
+        <li><a href="tel:12083251000">Call: +1 (208) 325-1000</a></li>
+      </ul>
+    </section>
+
+    <section class="resources">
+      <h2>Resources</h2>
+      <p>Check back soon for resort maps, trail guides, lift ticket info, and more!</p>
+    </section>
+
+    <footer>
+      <div class="contact">
+        <p>311 Village Dr, Donnelly, ID 83615, United States</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.7081190862473!2d-116.11547549999999!3d44.6727391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a60cc31a8c2105%3A0x5b594d0c575388cf!2sTamarack%20Resort!5e1!3m2!1sen!2shr!4v1749226795034!5m2!1sen!2shr" title="Tamarack Resort Map"></iframe>
+        <p class="legal-links">
+          <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
+          |
+          <a href="terms-and-conditions.html" target="_blank">Terms and Conditions</a>
+        </p>
+        <p>&copy; <span id="year"></span> Tamarack Resort. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
